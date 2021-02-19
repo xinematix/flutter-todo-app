@@ -11,10 +11,6 @@ class Register extends StatefulWidget {
 
 class _RegisterState extends State<Register> {
   final _formKey = GlobalKey<FormState>();
-  // TextEditingController emailController = TextEditingController();
-  // TextEditingController passwordController = TextEditingController();
-  // TextEditingController cfmPasswordController = TextEditingController();
-  // TextEditingController usernameController = TextEditingController();
   String _email, _password, _username, _cfmPassword;
 
   @override
